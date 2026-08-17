@@ -1,0 +1,11 @@
+.git
+.gitignore
+.github
+bin/
+*.out
+*.test
+.env
+Dockerfile*
+docker-compose*.yml
+README.md
+Jenkinsfile

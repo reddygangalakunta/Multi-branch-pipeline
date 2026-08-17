@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        agent 'ubuntu'
+    }
 
     environment {
         APP_NAME    = 'go-web-app'

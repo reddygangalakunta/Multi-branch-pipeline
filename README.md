@@ -33,6 +33,7 @@ This repository contains a simple Go web application and a Declarative `Jenkinsf
 ## 🛠️ Step-by-Step Git Commands
 
 ### 1. Initialize Git and Commit to `main`
+
 ```bash
 git init
 git branch -M main
@@ -43,6 +44,7 @@ git push -u origin main
 ```
 
 ### 2. Create the `dev` Branch and Push
+
 ```bash
 git checkout -b dev
 # (Optional) Make a change in dev
@@ -69,4 +71,4 @@ git push -u origin dev
 
 4. **Scan & Run**:
    - Click **Save**. Jenkins will automatically trigger **Branch Indexing / Scan Multibranch Pipeline**.
-   - It will automatically discover both `main` and `dev` branches and run their respective pipelines.
+   - It will automatically discover both `main` and `dev` branches, and run their respective pipelines.
